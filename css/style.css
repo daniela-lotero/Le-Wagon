@@ -1,0 +1,53 @@
+/*Importames las fuentes de texto de google que vamos a usar en la pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;900&display=swap');
+
+/*Importar la hoja de estilos de los componentes a nuestra hoja de estilo global*/
+@import url("components/container.css");
+
+/*importamos el estilo del componente avatar*/
+@import url("components/avatar.css");
+
+/*importamos el estilo del componente boton*/
+@import url("components/btn.css");
+
+/*importamos el estilo del componente banner*/
+@import url("components/banner.css");
+
+/*importamos el estilo del componente card*/
+@import url("components/card.css");
+
+/*importamos el estilo del componente cards*/
+@import url("components/cards.css");
+
+body{
+    font-family:'Lora', serif;
+    font-size: 18px;
+}
+
+h1,h2,h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration:none;
+}
+/*Responsive desing*/
+@media (max-width: 960px) {
+/* Para una pantalla < 960px, se leerá este CSS */
+.container {
+    width: 700px;
+    }
+}
+@media (max-width: 720px) {
+/* Para una pantalla < 720px, se leerá este CSS */
+.container {
+    width: 500px;
+    }
+}
+@media (max-width: 540px) {
+/* Para una pantalla < 540px, se leerá este CSS */
+.container {
+    width: 300px;
+    }
+}

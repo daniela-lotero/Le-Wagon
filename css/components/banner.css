@@ -1,0 +1,22 @@
+.banner{
+    background-image: /* Degradado a transparente arriba */
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+    /* Luego, la imagen abajo */
+    url(../../images/students.jpg);/*el linear-gradient le aplica una especie de filtro a la imagen del banner para que  la letra sobre este sea mas visible*/
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.banner h1{
+    color:#ffffff;
+    font-size:60px;
+}
+
+.banner h2{
+    color: white;
+    font-size:40px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
